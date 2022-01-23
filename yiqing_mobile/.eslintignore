@@ -1,0 +1,5 @@
+build
+src/assets
+public
+dist
+src/utils/validate.js
