@@ -4,7 +4,11 @@ import router from './router';
 import store from './store';
 import '@/assets/css/base.css';
 // import '@/assets/js/phone';
+// 引入vant库
+import './plugins/vant';
+import echarts from './plugins/echarts';
 
+Vue.use(echarts);
 Vue.config.productionTip = false;
 
 new Vue({
